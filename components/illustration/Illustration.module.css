@@ -1,0 +1,25 @@
+.illustrationCtn {
+  padding: 8px;
+  animation: illustrationAnim 2.25s linear infinite;
+  transform: translateY(-10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.illustration {
+  object-fit: cover;
+  object-position: center;
+}
+
+@keyframes illustrationAnim {
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  0% {
+    transform: translateY(-10px);
+  }
+}
